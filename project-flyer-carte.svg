@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Flyer A5 et carte de visite recto-verso pour Élan Coaching">
+  <defs>
+    <filter id="printShadow" x="-6%" y="-6%" width="114%" height="114%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#141413" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <!-- Fond neutre gris pierre -->
+  <rect width="800" height="600" fill="#E3E5E8"/>
+
+  <!-- FLYER A5 À GAUCHE -->
+  <g filter="url(#printShadow)">
+    <rect x="68" y="54" width="332" height="492" rx="4" fill="#FFFFFF"/>
+    <!-- Bandeau supérieur sombre -->
+    <rect x="68" y="54" width="332" height="214" rx="4" fill="#16222F"/>
+    <rect x="68" y="240" width="332" height="28" fill="#16222F"/>
+
+    <!-- Badge & Logo Élan -->
+    <polygon points="100,98 118,86 136,98 118,110" fill="#F08A24"/>
+    <text x="148" y="103" fill="#FFFFFF" font-family="Arial, sans-serif" font-weight="800" font-size="14" letter-spacing="3">ÉLAN STUDIO</text>
+
+    <!-- Titre principal flyer -->
+    <text x="100" y="156" fill="#FFFFFF" font-family="Arial, sans-serif" font-weight="900" font-size="31" letter-spacing="0.5">REPRENEZ</text>
+    <text x="100" y="192" fill="#F08A24" font-family="Arial, sans-serif" font-weight="900" font-size="31" letter-spacing="0.5">LE RYTHME.</text>
+    <text x="100" y="224" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="12.5">Coaching sportif &amp; remise en forme sur mesure</text>
+
+    <!-- Corps blanc du flyer -->
+    <text x="100" y="302" fill="#16222F" font-family="monospace" font-size="10.5" font-weight="700" letter-spacing="1.8">PROGRAMME ADAPTÉ À VOS OBJECTIFS</text>
+    <line x1="100" y1="312" x2="368" y2="312" stroke="#E2E8F0" stroke-width="1.2"/>
+
+    <circle cx="106" cy="338" r="4" fill="#F08A24"/>
+    <text x="120" y="342" fill="#1E293B" font-family="Arial, sans-serif" font-weight="700" font-size="12.5">Séances individuelles ou en petit groupe</text>
+
+    <circle cx="106" cy="370" r="4" fill="#F08A24"/>
+    <text x="120" y="374" fill="#1E293B" font-family="Arial, sans-serif" font-weight="700" font-size="12.5">Bilan physique &amp; suivi hebdomadaire</text>
+
+    <circle cx="106" cy="402" r="4" fill="#F08A24"/>
+    <text x="120" y="406" fill="#1E293B" font-family="Arial, sans-serif" font-weight="700" font-size="12.5">Horaires flexibles (matin, midi &amp; soir)</text>
+
+    <!-- Encadré offre -->
+    <rect x="100" y="432" width="268" height="46" rx="23" fill="#F08A24"/>
+    <text x="234" y="460" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-weight="800" font-size="13" letter-spacing="1">1ÈRE SÉANCE DÉCOUVERTE OFFERTE</text>
+
+    <!-- Pied flyer -->
+    <text x="100" y="512" fill="#475569" font-family="monospace" font-size="10">FLYER A5 PRINT · @ELANSTUDIO · 06 00 00 00 00</text>
+  </g>
+
+  <!-- CARTES DE VISITE (85x55 mm) À DROITE -->
+  <text x="444" y="102" fill="#525860" font-family="monospace" font-size="10.5" letter-spacing="1.8">CARTE DE VISITE · RECTO / VERSO (85×55 MM)</text>
+
+  <!-- Carte Recto (Sombre) -->
+  <g filter="url(#printShadow)">
+    <rect x="444" y="124" width="290" height="186" rx="6" fill="#16222F"/>
+    <polygon points="562,196 588,178 614,196 588,214" fill="#F08A24"/>
+    <text x="589" y="242" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-weight="800" font-size="18" letter-spacing="4">ÉLAN STUDIO</text>
+    <text x="589" y="262" text-anchor="middle" fill="#94A3B8" font-family="monospace" font-size="9.5" letter-spacing="2">SPORT &amp; BIEN-ÊTRE</text>
+  </g>
+
+  <!-- Carte Verso (Claire) -->
+  <g filter="url(#printShadow)">
+    <rect x="444" y="340" width="290" height="186" rx="6" fill="#FFFFFF"/>
+    <rect x="444" y="340" width="8" height="186" rx="2" fill="#F08A24"/>
+
+    <text x="476" y="382" fill="#16222F" font-family="Arial, sans-serif" font-weight="800" font-size="16">Lucas Bernard</text>
+    <text x="476" y="400" fill="#F08A24" font-family="monospace" font-size="10" font-weight="700" letter-spacing="1.2">COACH SPORTIF CERTIFIÉ</text>
+
+    <line x1="476" y1="418" x2="704" y2="418" stroke="#E2E8F0" stroke-width="1"/>
+
+    <text x="476" y="446" fill="#334155" font-family="monospace" font-size="10.5">Tél : +261 34 00 000 00</text>
+    <text x="476" y="468" fill="#334155" font-family="monospace" font-size="10.5">Email : contact@elan-studio.com</text>
+    <text x="476" y="490" fill="#334155" font-family="monospace" font-size="10.5">Insta : @elanstudio.coaching</text>
+  </g>
+</svg>

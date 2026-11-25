@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Maquette du menu recto-verso Le Petit Bistro">
+  <defs>
+    <filter id="pageShadow" x="-6%" y="-6%" width="114%" height="114%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#141413" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <!-- Fond table neutre -->
+  <rect width="800" height="600" fill="#E6E1D6"/>
+
+  <!-- PAGE RECTO (Gauche) -->
+  <g filter="url(#pageShadow)">
+    <rect x="54" y="48" width="330" height="504" rx="4" fill="#FCF9F2"/>
+    <rect x="66" y="60" width="306" height="480" fill="none" stroke="#2D4A3E" stroke-width="1.2"/>
+
+    <!-- En-tête Menu -->
+    <text x="219" y="96" text-anchor="middle" fill="#B8502C" font-family="monospace" font-size="9.5" letter-spacing="3">RESTAURANT · MIDI &amp; SOIR</text>
+    <text x="219" y="128" text-anchor="middle" fill="#1D2B24" font-family="Georgia, serif" font-size="28" letter-spacing="1.5">LE PETIT BISTRO</text>
+    <line x1="164" y1="142" x2="274" y2="142" stroke="#B8502C" stroke-width="1.5"/>
+
+    <!-- Section ENTRÉES -->
+    <text x="86" y="176" fill="#2D4A3E" font-family="monospace" font-size="11" font-weight="700" letter-spacing="2">ENTRÉES</text>
+    <line x1="86" y1="184" x2="352" y2="184" stroke="#DCD6C8" stroke-width="1"/>
+
+    <text x="86" y="206" fill="#1D2B24" font-family="Arial, sans-serif" font-weight="700" font-size="11.5">Velouté de potimarron rôti</text>
+    <text x="352" y="206" text-anchor="end" fill="#B8502C" font-family="monospace" font-weight="700" font-size="11">7,50 €</text>
+    <text x="86" y="220" fill="#6E6A61" font-family="Arial, sans-serif" font-size="9.5">Crème légère, éclats de noisettes et pain grillé</text>
+
+    <text x="86" y="246" fill="#1D2B24" font-family="Arial, sans-serif" font-weight="700" font-size="11.5">Salade chèvre chaud &amp; miel</text>
+    <text x="352" y="246" text-anchor="end" fill="#B8502C" font-family="monospace" font-weight="700" font-size="11">9,00 €</text>
+    <text x="86" y="260" fill="#6E6A61" font-family="Arial, sans-serif" font-size="9.5">Mesclun croquant, tomates confites, noix</text>
+
+    <text x="86" y="286" fill="#1D2B24" font-family="Arial, sans-serif" font-weight="700" font-size="11.5">Terrine maison aux herbes</text>
+    <text x="352" y="286" text-anchor="end" fill="#B8502C" font-family="monospace" font-weight="700" font-size="11">8,50 €</text>
+    <text x="86" y="300" fill="#6E6A61" font-family="Arial, sans-serif" font-size="9.5">Cornichons croquants et pain de campagne</text>
+
+    <!-- Section PLATS -->
+    <text x="86" y="338" fill="#2D4A3E" font-family="monospace" font-size="11" font-weight="700" letter-spacing="2">PLATS DU CHEF</text>
+    <line x1="86" y1="346" x2="352" y2="346" stroke="#DCD6C8" stroke-width="1"/>
+
+    <text x="86" y="368" fill="#1D2B24" font-family="Arial, sans-serif" font-weight="700" font-size="11.5">Suprême de volaille fermière</text>
+    <text x="352" y="368" text-anchor="end" fill="#B8502C" font-family="monospace" font-weight="700" font-size="11">16,50 €</text>
+    <text x="86" y="382" fill="#6E6A61" font-family="Arial, sans-serif" font-size="9.5">Purée maison au beurre demi-sel, jus réduit</text>
+
+    <text x="86" y="408" fill="#1D2B24" font-family="Arial, sans-serif" font-weight="700" font-size="11.5">Pavé de saumon grillé</text>
+    <text x="352" y="408" text-anchor="end" fill="#B8502C" font-family="monospace" font-weight="700" font-size="11">18,00 €</text>
+    <text x="86" y="422" fill="#6E6A61" font-family="Arial, sans-serif" font-size="9.5">Légumes de saison rôtis et sauce citronnée</text>
+
+    <text x="86" y="448" fill="#1D2B24" font-family="Arial, sans-serif" font-weight="700" font-size="11.5">Burger du Bistro</text>
+    <text x="352" y="448" text-anchor="end" fill="#B8502C" font-family="monospace" font-weight="700" font-size="11">15,50 €</text>
+    <text x="86" y="462" fill="#6E6A61" font-family="Arial, sans-serif" font-size="9.5">Pain brioché, cheddar affiné et frites maison</text>
+
+    <text x="86" y="488" fill="#1D2B24" font-family="Arial, sans-serif" font-weight="700" font-size="11.5">Risotto crémeux aux champignons</text>
+    <text x="352" y="488" text-anchor="end" fill="#B8502C" font-family="monospace" font-weight="700" font-size="11">14,50 €</text>
+    <text x="86" y="502" fill="#6E6A61" font-family="Arial, sans-serif" font-size="9.5">Parmesan 24 mois et huile de persil (Végétarien)</text>
+  </g>
+
+  <!-- PAGE VERSO (Droite) -->
+  <g filter="url(#pageShadow)">
+    <rect x="416" y="48" width="330" height="504" rx="4" fill="#2D4A3E"/>
+    <rect x="428" y="60" width="306" height="480" fill="none" stroke="rgba(252,249,242,0.35)" stroke-width="1"/>
+
+    <!-- Section DESSERTS -->
+    <text x="448" y="102" fill="#E8A986" font-family="monospace" font-size="11" font-weight="700" letter-spacing="2">DESSERTS MAISON</text>
+    <line x1="448" y1="112" x2="714" y2="112" stroke="rgba(252,249,242,0.22)" stroke-width="1"/>
+
+    <text x="448" y="136" fill="#FCF9F2" font-family="Arial, sans-serif" font-weight="700" font-size="11.5">Fondant au chocolat noir</text>
+    <text x="714" y="136" text-anchor="end" fill="#E8A986" font-family="monospace" font-weight="700" font-size="11">7,00 €</text>
+    <text x="448" y="150" fill="rgba(252,249,242,0.72)" font-family="Arial, sans-serif" font-size="9.5">Cœur coulant et boule de glace vanille</text>
+
+    <text x="448" y="176" fill="#FCF9F2" font-family="Arial, sans-serif" font-weight="700" font-size="11.5">Tiramisu classique</text>
+    <text x="714" y="176" text-anchor="end" fill="#E8A986" font-family="monospace" font-weight="700" font-size="11">6,50 €</text>
+    <text x="448" y="190" fill="rgba(252,249,242,0.72)" font-family="Arial, sans-serif" font-size="9.5">Biscuits imbibés au café et cacao amer</text>
+
+    <text x="448" y="216" fill="#FCF9F2" font-family="Arial, sans-serif" font-weight="700" font-size="11.5">Tarte fine aux pommes</text>
+    <text x="714" y="216" text-anchor="end" fill="#E8A986" font-family="monospace" font-weight="700" font-size="11">6,50 €</text>
+    <text x="448" y="230" fill="rgba(252,249,242,0.72)" font-family="Arial, sans-serif" font-size="9.5">Caramel beurre salé maison</text>
+
+    <!-- Section BOISSONS -->
+    <text x="448" y="274" fill="#E8A986" font-family="monospace" font-size="11" font-weight="700" letter-spacing="2">BOISSONS &amp; CAFÉS</text>
+    <line x1="448" y1="284" x2="714" y2="284" stroke="rgba(252,249,242,0.22)" stroke-width="1"/>
+
+    <text x="448" y="308" fill="#FCF9F2" font-family="Arial, sans-serif" font-size="11">Expresso / Café allongé</text>
+    <text x="714" y="308" text-anchor="end" fill="#E8A986" font-family="monospace" font-size="11">2,50 €</text>
+
+    <text x="448" y="330" fill="#FCF9F2" font-family="Arial, sans-serif" font-size="11">Cappuccino / Latte macchiato</text>
+    <text x="714" y="330" text-anchor="end" fill="#E8A986" font-family="monospace" font-size="11">4,20 €</text>
+
+    <text x="448" y="352" fill="#FCF9F2" font-family="Arial, sans-serif" font-size="11">Jus pressé frais (Orange / Citron)</text>
+    <text x="714" y="352" text-anchor="end" fill="#E8A986" font-family="monospace" font-size="11">4,50 €</text>
+
+    <text x="448" y="374" fill="#FCF9F2" font-family="Arial, sans-serif" font-size="11">Eau minérale plate ou gazeuse (50 cl)</text>
+    <text x="714" y="374" text-anchor="end" fill="#E8A986" font-family="monospace" font-size="11">3,50 €</text>
+
+    <!-- Encadré Formule du Midi -->
+    <rect x="448" y="408" width="266" height="86" rx="4" fill="#FCF9F2"/>
+    <text x="581" y="432" text-anchor="middle" fill="#B8502C" font-family="monospace" font-size="10" font-weight="700" letter-spacing="2">FORMULE DU MIDI</text>
+    <text x="581" y="454" text-anchor="middle" fill="#1D2B24" font-family="Georgia, serif" font-size="16">Entrée + Plat ou Plat + Dessert</text>
+    <text x="581" y="478" text-anchor="middle" fill="#2D4A3E" font-family="monospace" font-weight="700" font-size="14">19,50 € · DU LUNDI AU VENDREDI</text>
+
+    <text x="581" y="524" text-anchor="middle" fill="rgba(252,249,242,0.7)" font-family="monospace" font-size="9">OUVERT 7J/7 · 11H30 – 22H30 · MENU A4 RECTO/VERSO</text>
+  </g>
+</svg>
