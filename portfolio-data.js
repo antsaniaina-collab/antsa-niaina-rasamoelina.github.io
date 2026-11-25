@@ -50,7 +50,7 @@ window.PORTFOLIO_DATA = {
       duration: "1 semaine",
       role: "Graphiste — Affiche, Détourage & Typographie",
       team: "Création personnelle (avec mon portrait)",
-      image: "assets/project-affiche-passion.jpg",
+      image: "project-affiche-passion.jpg",
       imageAlt:
         "Affiche événementielle Live Passion avec le portrait d'Antsaniaina Rasamoelina, typographie dorée et blanche sur fond sombre",
       shortSummary:
@@ -102,7 +102,7 @@ window.PORTFOLIO_DATA = {
       duration: "1 semaine",
       role: "Graphiste — Logo & Déclinaisons",
       team: "Planche vectorielle 100 % Illustrator",
-      image: "assets/project-logo-kora.svg",
+      image: "project-logo-kora.svg",
       imageAlt:
         "Planche de présentation vectorielle du logo Kora Café avec déclinaisons noir, fond sombre et palette 3 couleurs",
       shortSummary:
@@ -156,7 +156,7 @@ window.PORTFOLIO_DATA = {
       duration: "1 semaine",
       role: "Graphiste — Mise en page & Typographie",
       team: "Maquette à plat prête à imprimer",
-      image: "assets/project-menu-bistro.svg",
+      image: "project-menu-bistro.svg",
       imageAlt:
         "Maquette plate recto-verso du menu A4 Le Petit Bistro présentant entrées, plats, desserts, boissons et formule du midi",
       shortSummary:
@@ -208,7 +208,7 @@ window.PORTFOLIO_DATA = {
       duration: "1 semaine",
       role: "Graphiste — Flyer, Carte & Logo simple",
       team: "Pack communication imprimée réaliste",
-      image: "assets/project-flyer-carte.svg",
+      image: "project-flyer-carte.svg",
       imageAlt:
         "Présentation à plat du flyer A5 et de la carte de visite recto-verso 85x55 mm pour Élan Studio",
       shortSummary:
