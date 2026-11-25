@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="meta-title">Antsaniaina Rasamoelina — Graphiste Freelance · Identité Visuelle &amp; Branding</title>
+  <meta name="description" id="meta-description" content="Portfolio d'Antsaniaina Rasamoelina, graphiste freelance (2 ans d'expérience) en identité visuelle, branding, édition et print. Découvrez 4 projets phares." />
+  <meta property="og:title" content="Antsaniaina Rasamoelina — Portfolio Graphiste Freelance" />
+  <meta property="og:description" content="4 projets phares d'identité visuelle, packaging, édition et print." />
+  <meta property="og:type" content="website" />
+
+  <!-- Typographies éditoriales Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,600&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#projets">Aller directement aux projets</a>
+
+  <!-- Barre de progression de lecture -->
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- En-tête éditorial sticky -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand-mark" aria-label="Accueil du portfolio">
+        <span class="brand-monogram" id="header-monogram">AR</span>
+        <span class="brand-text">
+          <strong id="header-name">Antsaniaina Rasamoelina</strong>
+          <small id="header-role">Graphiste Freelance · Identité Visuelle</small>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="#projets" class="nav-link">Projets <span class="nav-count">04</span></a>
+        <a href="#approche" class="nav-link">Approche</a>
+        <a href="#parcours" class="nav-link">Parcours</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="btn btn-ghost btn-sm" id="open-cv-btn" aria-haspopup="dialog">
+          <span>Aperçu CV</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+            <polyline points="14 2 14 8 20 8"/>
+            <line x1="16" y1="13" x2="8" y2="13"/>
+            <line x1="16" y1="17" x2="8" y2="17"/>
+          </svg>
+        </button>
+        <a href="#contact" class="btn btn-primary btn-sm">Me recruter</a>
+        <button type="button" class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Ouvrir le menu" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Menu mobile -->
+    <div class="mobile-nav" id="mobile-nav" hidden>
+      <a href="#projets">Projets (04)</a>
+      <a href="#approche">Approche &amp; Outils</a>
+      <a href="#parcours">Parcours &amp; Avis</a>
+      <a href="#contact">Contact</a>
+      <button type="button" class="btn btn-outline" id="mobile-cv-btn">Consulter mon CV</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO ÉDITORIAL -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-meta-row reveal">
+          <div class="availability-pill">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            <span id="hero-availability">Disponible · Missions Freelance &amp; Renfort Studio</span>
+          </div>
+          <div class="hero-location mono" id="hero-location">GRAPHISTE FREELANCE · REMOTE &amp; COLLABORATIONS</div>
+        </div>
+
+        <h1 class="hero-title reveal" id="hero-title">
+          Je conçois des <em>identités visuelles</em> qui ancrent les marques et <em>convainquent</em> durablement.
+        </h1>
+
+        <div class="hero-grid reveal">
+          <div class="hero-summary">
+            <p class="hero-lead" id="hero-lead">
+              <strong>Graphiste freelance depuis 2 ans</strong>, j'accompagne marques, entrepreneurs et studios dans la création d'<strong>identités visuelles, logotypes, packagings et supports print</strong> — avec un souci constant de lisibilité, de caractère et d'efficacité.
+            </p>
+            <div class="hero-cta-group">
+              <a href="#projets" class="btn btn-primary">
+                <span>Explorer les 4 projets phares</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                  <line x1="12" y1="5" x2="12" y2="19"/>
+                  <polyline points="19 12 12 19 5 12"/>
+                </svg>
+              </a>
+              <button type="button" class="btn btn-outline" id="hero-cv-btn">
+                <span>Consulter / Imprimer le CV</span>
+              </button>
+            </div>
+          </div>
+
+          <aside class="hero-stats-card" aria-label="Indicateurs clés pour les recruteurs">
+            <div class="stats-card-header mono">EN BREF — PROFIL RECRUTEUR</div>
+            <div class="stats-grid" id="hero-stats">
+              <!-- Injecté par JS -->
+            </div>
+          </aside>
+        </div>
+      </div>
+
+      <!-- Ruban typographique -->
+      <div class="editorial-marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>CRÉATION DE LOGOS</span><span class="dot">◆</span>
+          <span>AFFICHES ÉVÉNEMENTIELLES</span><span class="dot">◆</span>
+          <span>MENUS &amp; CARTES</span><span class="dot">◆</span>
+          <span>IDENTITÉ VISUELLE</span><span class="dot">◆</span>
+          <span>PACKAGING &amp; ÉTIQUETTES</span><span class="dot">◆</span>
+          <span>FLYERS &amp; PAPETERIE</span><span class="dot">◆</span>
+          <span>CRÉATION DE LOGOS</span><span class="dot">◆</span>
+          <span>AFFICHES ÉVÉNEMENTIELLES</span><span class="dot">◆</span>
+          <span>MENUS &amp; CARTES</span><span class="dot">◆</span>
+          <span>IDENTITÉ VISUELLE</span><span class="dot">◆</span>
+          <span>PACKAGING &amp; ÉTIQUETTES</span><span class="dot">◆</span>
+          <span>FLYERS &amp; PAPETERIE</span><span class="dot">◆</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4 PROJETS PHARES -->
+    <section class="projects-section section-pad" id="projets">
+      <div class="container">
+        <div class="section-header reveal">
+          <div>
+            <p class="section-kicker mono">01 / PROJETS CONCEPTS &amp; RÉALISATIONS</p>
+            <h2 class="section-title">Quatre projets <em>simples &amp; concrets</em></h2>
+          </div>
+          <p class="section-intro">
+            Mon affiche réelle et trois créations graphiques 100 % vectorielles (logo, menu, flyer &amp; carte de visite) sans mockups artificiels, pour évaluer directement mon travail de graphiste.
+          </p>
+        </div>
+
+        <!-- Filtres discrets -->
+        <div class="project-filters reveal" role="tablist" aria-label="Filtrer les projets par discipline">
+          <button type="button" class="filter-chip is-active" data-filter="all" role="tab" aria-selected="true">Tous les projets (04)</button>
+          <button type="button" class="filter-chip" data-filter="culture" role="tab" aria-selected="false">Affiches</button>
+          <button type="button" class="filter-chip" data-filter="branding" role="tab" aria-selected="false">Logos</button>
+          <button type="button" class="filter-chip" data-filter="edition" role="tab" aria-selected="false">Menus &amp; Flyers</button>
+        </div>
+
+        <!-- Grille des 4 projets -->
+        <div class="projects-list" id="projects-list">
+          <!-- Injecté dynamiquement depuis js/portfolio-data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION APPROCHE & COMPÉTENCES -->
+    <section class="approach-section section-pad" id="approche">
+      <div class="container">
+        <div class="section-header reveal">
+          <div>
+            <p class="section-kicker mono">02 / MÉTHODOLOGIE &amp; SAVOIR-FAIRE</p>
+            <h2 class="section-title">Rigueur stratégique <em>&amp;</em> sensibilité typographique</h2>
+          </div>
+          <p class="section-intro">
+            Un bon graphisme ne se limite pas à l'esthétique : il résout un problème de lisibilité, différencie une offre et s'industrialise sans perte de qualité.
+          </p>
+        </div>
+
+        <div class="methodology-grid reveal" id="methodology-grid">
+          <!-- Injecté par JS -->
+        </div>
+
+        <div class="skills-panel reveal">
+          <div class="skills-panel-col">
+            <h3 class="panel-subtitle mono">EXPERTISES MÉTIER</h3>
+            <ul class="tag-cloud" id="skills-disciplines"></ul>
+          </div>
+          <div class="skills-panel-col">
+            <h3 class="panel-subtitle mono">SUITE LOGICIELLE &amp; PRODUCTION</h3>
+            <ul class="tag-cloud" id="skills-tools"></ul>
+          </div>
+          <div class="skills-panel-col">
+            <h3 class="panel-subtitle mono">SECTEURS ACCOMPAGNÉS</h3>
+            <ul class="tag-cloud" id="skills-sectors"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION PARCOURS & RECOMMANDATIONS -->
+    <section class="experience-section section-pad" id="parcours">
+      <div class="container">
+        <div class="section-header reveal">
+          <div>
+            <p class="section-kicker mono">03 / PARCOURS &amp; CRÉDIBILITÉ</p>
+            <h2 class="section-title">Expériences, distinctions <em>&amp;</em> regards</h2>
+          </div>
+          <button type="button" class="btn btn-outline" id="section-cv-btn">
+            <span>Ouvrir le CV complet (PDF / Impression)</span>
+          </button>
+        </div>
+
+        <div class="experience-layout">
+          <div class="timeline-col reveal">
+            <h3 class="col-heading mono">EXPÉRIENCES CLÉS</h3>
+            <div class="timeline" id="experience-timeline">
+              <!-- Injecté par JS -->
+            </div>
+
+            <h3 class="col-heading mono mt-lg">FORMATION &amp; DISTINCTIONS</h3>
+            <div class="education-list" id="education-list">
+              <!-- Injecté par JS -->
+            </div>
+          </div>
+
+          <div class="testimonials-col reveal">
+            <h3 class="col-heading mono">ENGAGEMENTS &amp; VALEUR AJOUTÉE</h3>
+            <div class="testimonials-stack" id="testimonials-stack">
+              <!-- Injecté par JS -->
+            </div>
+
+            <div class="recruiter-guarantee">
+              <div class="guarantee-badge mono">ATOUT OPÉRATIONNEL</div>
+              <h4>Autonomie totale de la maquette à l'imprimeur</h4>
+              <p>
+                Maîtrise complète de la chaîne graphique : dessin vectoriel millimétré, préparation de fichiers pré-presse (CMJN, Pantone, dorure, gaufrage), déclinaisons print &amp; réseaux sociaux, et rédaction de chartes graphiques claires prêtes à l'emploi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <section class="contact-section section-pad" id="contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="contact-info">
+            <p class="section-kicker mono">04 / PRENONS RENDEZ-VOUS</p>
+            <h2 class="contact-title">Construisons votre <em>prochaine</em> identité.</h2>
+            <p class="contact-desc" id="contact-desc">
+              Vous recherchez un graphiste freelance fiable pour renforcer votre studio, piloter une identité visuelle ou décliner vos supports print ? Discutons de vos enjeux autour d'un échange de 20 minutes.
+            </p>
+
+            <div class="direct-contact">
+              <div class="email-copy-box">
+                <span class="mono email-label">EMAIL DIRECT</span>
+                <div class="email-row">
+                  <a href="mailto:antsagraphiste.mg@gmail.com" id="contact-email-link" class="email-value">antsagraphiste.mg@gmail.com</a>
+                  <button type="button" class="btn btn-ghost btn-xs" id="copy-email-btn" aria-label="Copier l'adresse email">
+                    Copier
+                  </button>
+                </div>
+              </div>
+              <div class="social-links" id="social-links">
+                <!-- Injecté par JS -->
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="form-name">Votre nom / Entreprise</label>
+                <input type="text" id="form-name" name="name" placeholder="Ex. Clara Martin — Studio Nord" required />
+              </div>
+              <div class="form-field">
+                <label for="form-email">Email professionnel</label>
+                <input type="email" id="form-email" name="email" placeholder="clara@studio.fr" required />
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="form-subject">Objet de votre message</label>
+              <select id="form-subject" name="subject">
+                <option value="Collaboration Agence / Studio (Freelance)">Collaboration Agence / Studio (Freelance)</option>
+                <option value="Mission Identité Visuelle & Branding">Mission — Identité Visuelle &amp; Branding</option>
+                <option value="Supports Print / Packaging / Édition">Supports Print, Packaging ou Édition</option>
+                <option value="Entretien / Portfolio">Demande d'entretien &amp; présentation complète</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="form-message">Message</label>
+              <textarea id="form-message" name="message" rows="4" placeholder="Parlez-moi du poste, du contexte ou de votre projet..." required></textarea>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Envoyer le message</button>
+              <span class="form-hint mono">Réponse sous 24h ouvrées</span>
+            </div>
+            <div class="form-feedback" id="form-feedback" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="mono" id="footer-copy">© 2026 Antsaniaina Rasamoelina — Graphiste Freelance · Identité Visuelle</p>
+      <a href="#top" class="footer-top mono">Haut de page ↑</a>
+    </div>
+  </footer>
+
+  <!-- MODALE ÉTUDE DE CAS DÉTAILLÉE -->
+  <div class="modal-backdrop" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-project-title" hidden>
+    <div class="modal-shell case-study-shell">
+      <div class="modal-topbar">
+        <span class="mono modal-index" id="modal-project-index">ÉTUDE DE CAS 01 / 04</span>
+        <button type="button" class="modal-close" id="close-project-modal" aria-label="Fermer l'étude de cas">
+          <span>Fermer</span>
+          <kbd class="mono">ESC</kbd>
+        </button>
+      </div>
+
+      <div class="case-study-body" id="case-study-body">
+        <!-- Injecté dynamiquement par JS -->
+      </div>
+
+      <div class="case-study-footer">
+        <button type="button" class="btn btn-ghost" id="prev-project-btn">← Projet précédent</button>
+        <button type="button" class="btn btn-outline" id="next-project-btn">Projet suivant →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODALE CV SYNTHÉTIQUE IMPRIMABLE -->
+  <div class="modal-backdrop" id="cv-modal" role="dialog" aria-modal="true" aria-labelledby="cv-modal-title" hidden>
+    <div class="modal-shell cv-shell">
+      <div class="modal-topbar no-print">
+        <span class="mono">CURRICULUM VITAE — FORMAT RECRUTEUR</span>
+        <div class="cv-topbar-actions">
+          <button type="button" class="btn btn-primary btn-sm" id="print-cv-btn">Imprimer / Enregistrer en PDF</button>
+          <button type="button" class="modal-close" id="close-cv-modal" aria-label="Fermer le CV">
+            <span>Fermer</span>
+            <kbd class="mono">ESC</kbd>
+          </button>
+        </div>
+      </div>
+
+      <div class="cv-sheet" id="cv-sheet">
+        <!-- Injecté dynamiquement par JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast de notification -->
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="js/portfolio-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
